@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS folder -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- normalize folder -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <!--Fontawsome library-->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>Snap</title>
+    </head>
+    <body>
+        <!-- Start Navbar -->
+        <nav>
+            <a href="hero.html"><img class="logo" src="assets/logo.svg" alt="company Logo"></a>
+            <a href="#" class="open-sidebar" id="open-sidebar" title="Open Sidebar"><i class="fa-solid fa-bars"></i></a>
+            <div class="overlay-mobile"></div>
+            <div class="menu" id="menu">
+                <ul class="nav-links">
+                    <li><a href="#" class="close-sidebar" id="close-sidebar" title="close sidebar"><i class="fa-solid fa-times"></i></a></li>
+                    <li class="dropdown">
+                        <a class="dropbtn" href="#">Features<i class="fa-solid fa-angle-down fa-sm"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#"><img src="assets/icon-todo.svg" alt="">Todo list</a></li>
+                            <li><a href="#"><img src="assets/icon-calendar.svg" alt="">Calendar</a></li>
+                            <li><a href="#"><img src="assets/icon-reminders.svg" alt="">Reminders</a></li>
+                            <li><a href="#"><img src="assets/icon-planning.svg" alt="">Planning</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropbtn" href="#">company<i class="fa-solid fa-angle-down fa-sm"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our team</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#carrers">Carrers</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="#" class="login-btn">Login</a>
+                    <a href="#" class="register-btn">Register</a>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+        <!-- Start Hero Section -->
+        <section class="hero">
+            <div class="hero-image">
+                <img src="assets/image-hero-mobile.png" alt="Hero Image" class="mobile">
+            </div>
+            <div class="hero-text">
+                <h1>Make remote work</h1>
+                <p>Get your team in sync, no matter your location. Streamline process, create team rituals, and watch creativity soar.</p>
+                <button class="main-cta" type="button">Learn more</button>
+                <div class="clients">
+                    <img src="assets/client-databiz.svg" alt="databiz Logo">
+                    <img src="assets/client-audiophile.svg" alt="audiophile Logo">
+                    <img src="assets/client-meet.svg" alt="meet Logo">
+                    <img src="assets/client-maker.svg" alt="maker Logo">
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/image-hero-desktop.png" alt="Hero Image" class="desktop">
+            </div>
+        </section>
+        <!-- End Hero Section -->
+
+        <!-- Javascript file -->
+        <script src="main.js"></script>
+    </body>
+</html>
